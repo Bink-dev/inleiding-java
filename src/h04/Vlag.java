@@ -19,6 +19,5 @@ public class Vlag extends Applet {
         g.fillRect(51,201,274,74);
         g.setColor(Color.red);
         g.fillRect(51,51,274,74);
-
     }
 }
