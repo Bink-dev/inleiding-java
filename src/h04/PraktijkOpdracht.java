@@ -8,28 +8,39 @@ public class PraktijkOpdracht extends Applet {
     public void init() {setSize(1200,400);}
 
     public void paint(Graphics g) {
+        // lijn
         g.drawLine(20,20,320,20);
+
+        // rechthoek
         g.drawRect(20,50,300,150);
+
+        // rounded rechthoek
         g.drawRoundRect(20,230,300,150,30,30);
+
+        // gevulde rechthoek met ovaal
         g.setColor(Color.MAGENTA);
         g.fillRect(360,50,300,150);
         g.setColor(Color.BLACK);
         g.drawOval(360,50,300,150);
+
+        // gevulde ovaal
         g.setColor(Color.MAGENTA);
         g.fillOval(360,230,300,150);
+
+        // taartpunt met ovaal eromheen
         g.setColor(Color.MAGENTA);
         g.fillArc(700,50,300,150,0,45);
         g.setColor(Color.BLACK);
         g.drawOval(700,50,300,150);
+
+        // cirkel
         g.drawOval(800,230,150,150);
+
         g.drawString("Lijn",155,40);
         g.drawString("Rechthoek",135,220);
         g.drawString("Afgeronde rechthoek",110,400);
         g.drawString("Gevulde rechthoek met ovaal",420,220);
         g.drawString("Gevulde ovaal",470,400);
         g.drawString("Taartpunt met ovaal eromheen",770,220);
-        g.drawString("Cirkel",858,400);
-
-
-    }
+        g.drawString("Cirkel",858,400);}
 }
