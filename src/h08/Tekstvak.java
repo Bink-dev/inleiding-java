@@ -24,7 +24,7 @@ public class Tekstvak extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString(s,50,70);
+
     }
 
     class TekstvakListener implements ActionListener {
