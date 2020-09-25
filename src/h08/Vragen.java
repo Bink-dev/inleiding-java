@@ -7,12 +7,13 @@ import java.awt.event.ActionListener;
 
 public class Vragen extends Applet {
     Button knop;
-    TextField tekstvak;
+    Label tekstvak;
 
     public void init()
     {setSize(1000,500);
     setBackground(Color.blue);
-    tekstvak = new TextField("Het behandelen van \"events\", Dus als jij op een knop klikt dat er een reactie onstaat op die \"event\"",74);
+    tekstvak = new Label("Het behandelen van \"events\", Dus als jij op een knop klikt dat er een reactie onstaat op die \"event\"");
+    tekstvak.setForeground(Color.white);
     knop = new Button("Klik mij maar ;)");
     knop.addActionListener(new Knop());
     add(tekstvak);
