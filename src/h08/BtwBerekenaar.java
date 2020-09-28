@@ -45,7 +45,7 @@ public class BtwBerekenaar extends Applet {
             // Event handling voor de knop
             userInput = tekstvak.getText();
             bedrag = Double.parseDouble(userInput);
-            bedragINCBTW = (bedrag / 100) * 121 * 100;
+            bedragINCBTW = Math.round (((bedrag / 100.0) * 121.0 * 100.0))/100.0;
             repaint();
 
         }

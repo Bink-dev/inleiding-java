@@ -43,19 +43,19 @@ public class SimpelCalculator extends Applet {
         userInput2 = "";
 
         // Buttons
-        delen = new Button("/");
+        delen = new Button(" / ");
         delen.addActionListener(new DeelKnopListener());
         add(delen);
 
-        vermenigvuldigen = new Button("*");
+        vermenigvuldigen = new Button(" * ");
         vermenigvuldigen.addActionListener(new VermenigvuldigKnopListener());
         add(vermenigvuldigen);
 
-        optellen = new Button("+");
+        optellen = new Button(" + ");
         optellen.addActionListener(new OptelKnopListener());
         add(optellen);
 
-        aftrekken = new Button("-");
+        aftrekken = new Button(" - ");
         aftrekken.addActionListener(new AftrekKnopListener());
         add(aftrekken);
 
@@ -70,9 +70,8 @@ public class SimpelCalculator extends Applet {
 
         public void actionPerformed(ActionEvent e) {
             userInput1 = tekstvak1.getText();
-            userInput1 = tekstvak2.getText();
-            antwoord = Double.parseDouble(userInput1);
-            antwoord = Double.parseDouble(userInput2);
+            userInput2 = tekstvak2.getText();
+            antwoord = Double.parseDouble(userInput1) / Double.parseDouble(userInput2);
             tekstvak1.setText(String.valueOf(antwoord));
             tekstvak2.setText("");
             repaint();
@@ -83,9 +82,8 @@ public class SimpelCalculator extends Applet {
 
         public void actionPerformed(ActionEvent e) {
             userInput1 = tekstvak1.getText();
-            userInput1 = tekstvak2.getText();
-            antwoord = Double.parseDouble(userInput1);
-            antwoord = Double.parseDouble(userInput2);
+            userInput2 = tekstvak2.getText();
+            antwoord = Double.parseDouble(userInput1) * Double.parseDouble(userInput2);
             tekstvak1.setText(String.valueOf(antwoord));
             tekstvak2.setText("");
             repaint();
@@ -97,9 +95,8 @@ public class SimpelCalculator extends Applet {
 
         public void actionPerformed(ActionEvent e) {
             userInput1 = tekstvak1.getText();
-            userInput1 = tekstvak2.getText();
-            antwoord = Double.parseDouble(userInput1);
-            antwoord = Double.parseDouble(userInput2);
+            userInput2 = tekstvak2.getText();
+            antwoord = Double.parseDouble(userInput1) + Double.parseDouble(userInput2);
             tekstvak1.setText(String.valueOf(antwoord));
             tekstvak2.setText("");
             repaint();
@@ -111,9 +108,8 @@ public class SimpelCalculator extends Applet {
 
         public void actionPerformed(ActionEvent e) {
             userInput1 = tekstvak1.getText();
-            userInput1 = tekstvak2.getText();
-            antwoord = Double.parseDouble(userInput1);
-            antwoord = Double.parseDouble(userInput2);
+            userInput2 = tekstvak2.getText();
+            antwoord = Double.parseDouble(userInput1) - Double.parseDouble(userInput2);
             tekstvak1.setText(String.valueOf(antwoord));
             tekstvak2.setText("");
             repaint();
