@@ -62,7 +62,7 @@ public class SimpelCalculator extends Applet {
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.lightGray);
+        setBackground(Color.cyan);
 
     }
 

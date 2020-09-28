@@ -29,7 +29,7 @@ public class BtwBerekenaar extends Applet {
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.darkGray);
+        setBackground(Color.pink);
         g.setColor(Color.white);
         g.drawString("Vul je bedrag zonder BTW in en bereken het bedrag inc. BTW,",40,45);
         g.drawString("gebruik een punt ipv komma. deze herkent hij anders niet!",47,65);

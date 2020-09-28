@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H08&gt; Opdracht 8 Praktijk" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hGjbcjxlUwFUHqjsHG2gWDLmNN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Applet.SimpelCalculator">
+    <configuration name="BtwBerekenaar" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.BtwBerekenaar" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenAvond" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.OpenAvond" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpelCalculator" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.SimpelCalculator" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekstvak" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.Tekstvak" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vragen (1)" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h07.Vragen" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Applet.Tekstvak" />
+      <item itemvalue="Applet.OpenAvond" />
+      <item itemvalue="Applet.BtwBerekenaar" />
+      <item itemvalue="Applet.SimpelCalculator" />
+      <item itemvalue="Applet.Vragen (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Applet.SimpelCalculator" />
+        <item itemvalue="Applet.BtwBerekenaar" />
+        <item itemvalue="Applet.Vragen (1)" />
+        <item itemvalue="Applet.Tekstvak" />
+        <item itemvalue="Applet.OpenAvond" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="" />
+      <created>1599644395265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599644395265</updated>
+      <workItem from="1599644396329" duration="1166000" />
+      <workItem from="1599645580283" duration="10312000" />
+      <workItem from="1599851419756" duration="96000" />
+      <workItem from="1599905555426" duration="479000" />
+      <workItem from="1599906049827" duration="10768000" />
+      <workItem from="1599916954359" duration="4193000" />
+      <workItem from="1600000735014" duration="6567000" />
+      <workItem from="1600154890352" duration="708000" />
+      <workItem from="1600166366095" duration="633000" />
+      <workItem from="1600243258878" duration="61000" />
+      <workItem from="1600243346149" duration="13626000" />
+      <workItem from="1600257910935" duration="470000" />
+      <workItem from="1600329707495" duration="13826000" />
+      <workItem from="1600420833231" duration="6890000" />
+      <workItem from="1600497199273" duration="3649000" />
+      <workItem from="1600500879767" duration="3507000" />
+      <workItem from="1600597640157" duration="5581000" />
+      <workItem from="1600759142497" duration="324000" />
+      <workItem from="1600771433627" duration="2321000" />
+      <workItem from="1600945046558" duration="913000" />
+      <workItem from="1601014201574" duration="12764000" />
+      <workItem from="1601071902718" duration="564000" />
+      <workItem from="1601114935141" duration="5284000" />
+      <workItem from="1601124574029" duration="7182000" />
+      <workItem from="1601193504499" duration="6550000" />
+      <workItem from="1601275452278" duration="2957000" />
+    </task>
+    <task id="LOCAL-00001" summary="Change of text from Hallo klas 8A &gt; I like ya cut g">
+      <created>1599644971622</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599644971622</updated>
+    </task>
+    <task id="LOCAL-00002" summary="H02&gt; Applet opdrachten + vragen">
+      <created>1599655447370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599655447370</updated>
+    </task>
+    <task id="LOCAL-00003" summary="H04&gt; Huis &amp; Driehoek">
+      <created>1599912866615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599912866616</updated>
+    </task>
+    <task id="LOCAL-00004" summary="H04&gt; Huis &amp; Driehoek">
+      <created>1599916733568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599916733568</updated>
+    </task>
+    <task id="LOCAL-00005" summary="H04&gt; Vlag">
+      <created>1599916846491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599916846491</updated>
+    </task>
+    <task id="LOCAL-00006" summary="H04&gt; Vlag">
+      <created>1599917029701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599917029701</updated>
+    </task>
+    <task id="LOCAL-00007" summary="H04&gt; GewichtDiagram">
+      <created>1599920441214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599920441214</updated>
+    </task>
+    <task id="LOCAL-00008" summary="H04&gt; Ellips">
+      <created>1599921099923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599921099923</updated>
+    </task>
+    <task id="LOCAL-00009" summary="H04&gt; Stoplicht">
+      <created>1600013714346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600013714346</updated>
+    </task>
+    <task id="LOCAL-00010" summary="H04&gt; Dobbelsteen">
+      <created>1600014476685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600014476685</updated>
+    </task>
+    <task id="LOCAL-00011" summary="H04&gt; PraktijkOpdracht">
+      <created>1600017677818</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600017677818</updated>
+    </task>
+    <task id="LOCAL-00012" summary="H05&gt; PraktijkOpdracht met variabelen">
+      <created>1600252763315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600252763315</updated>
+    </task>
+    <task id="LOCAL-00013" summary="H05&gt; gewichtdiagram met variabelen">
+      <created>1600258289881</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600258289881</updated>
+    </task>
+    <task id="LOCAL-00014" summary="H06&gt; vragen">
+      <created>1600333852940</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600333852940</updated>
+    </task>
+    <task id="LOCAL-00015" summary="H06&gt; seconden aantal">
+      <created>1600341831546</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600341831546</updated>
+    </task>
+    <task id="LOCAL-00016" summary="H06&gt; 2 positieven naar een negatief">
+      <created>1600344154576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600344154576</updated>
+    </task>
+    <task id="LOCAL-00017" summary="H06&gt; Praktijkopdracht">
+      <created>1600424612907</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600424612907</updated>
+    </task>
+    <task id="LOCAL-00018" summary="H07&gt; Vragen">
+      <created>1600427630412</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600427630412</updated>
+    </task>
+    <task id="LOCAL-00019" summary="H08&gt; oefenopgaven">
+      <created>1600504379441</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600504379441</updated>
+    </task>
+    <task id="LOCAL-00020" summary="H08&gt; Vragen">
+      <created>1600599620703</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600599620703</updated>
+    </task>
+    <task id="LOCAL-00021" summary="H08&gt; Opdracht 8.1 Ok en reset knop">
+      <created>1600602290296</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600602290296</updated>
+    </task>
+    <task id="LOCAL-00022" summary="H08&gt; Opdracht 8.2 Openavond counter">
+      <created>1601027778988</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601027778988</updated>
+    </task>
+    <task id="LOCAL-00023" summary="H08&gt; Opdracht 8.3 BTW berekenaar ( Moet gefinetuned worden op decimalen)">
+      <created>1601128533094</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601128533094</updated>
+    </task>
+    <task id="LOCAL-00024" summary="H08&gt; Opdracht 8 Praktijk rekenmachine, pre-fix userinput">
+      <created>1601210707724</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601210707724</updated>
+    </task>
+    <task id="LOCAL-00025" summary="H08&gt; Opdracht 8 Praktijk">
+      <created>1601277641893</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601277641893</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change of text from Hallo klas 8A &gt; I like ya cut g" />
+    <MESSAGE value="H02&gt; Applet opdrachten + vragen" />
+    <MESSAGE value="H04&gt; Huis &amp; Driehoek" />
+    <MESSAGE value="H04&gt; Huis,Driehoek &amp; Vlag" />
+    <MESSAGE value="H04&gt; Vlag" />
+    <MESSAGE value="H04&gt; GewichtDiagram" />
+    <MESSAGE value="H04&gt; Ellips" />
+    <MESSAGE value="H04&gt; Stoplicht" />
+    <MESSAGE value="H04&gt; Dobbelsteen" />
+    <MESSAGE value="H04&gt; PraktijkOpdracht" />
+    <MESSAGE value="H05&gt; PraktijkOpdracht met variabelen" />
+    <MESSAGE value="H05&gt; gewichtdiagram met variabelen" />
+    <MESSAGE value="H06&gt; vragen" />
+    <MESSAGE value="H06&gt; seconden aantal" />
+    <MESSAGE value="H06&gt; 2 positieven naar een negatief" />
+    <MESSAGE value="H06&gt; Praktijkopdracht" />
+    <MESSAGE value="H07&gt; Vragen" />
+    <MESSAGE value="H08&gt; oefenopgaven" />
+    <MESSAGE value="H08&gt; Vragen" />
+    <MESSAGE value="H08&gt; Opdracht 8.1 Ok en reset knop" />
+    <MESSAGE value="H08&gt; Opdracht 8.2 Openavond counter" />
+    <MESSAGE value="H08&gt; Opdracht 8.3 BTW berekenaar ( Moet gefinetuned worden op decimalen)" />
+    <MESSAGE value="H08&gt; Opdracht 8 Praktijk rekenmachine, pre-fix userinput" />
+    <MESSAGE value="H08&gt; Opdracht 8 Praktijk" />
+    <option name="LAST_COMMIT_MESSAGE" value="H08&gt; Opdracht 8 Praktijk" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1600337683588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1600337683588" />
+    <state x="414" y="158" width="1092" height="882" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599652233843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="158" width="1092" height="882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599652233843" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1601017781062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601017781062" />
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600012690501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1600012690501" />
+    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599650986031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1599650986031" />
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1601277226492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601277226492" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1601277226492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601277226492" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1601277226492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601277226492" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1601277226492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601277226492" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1601156292632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601156292632" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1601156292632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601156292632" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1601156292632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601156292632" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1601156292632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601156292632" />
+    <state x="651" y="240" key="RollbackChangesDialog" timestamp="1600256201685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600256201685" />
+    <state x="584" y="155" key="SettingsEditor" timestamp="1601115587674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601115587674" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601277643183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601277643183" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601120151713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601120151713" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601025870974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601025870974" />
+  </component>
+</project>
