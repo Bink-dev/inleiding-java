@@ -60,7 +60,7 @@ public class MaandApplet extends Applet {
                 case "10": maand = "Oktober" + oktober + " dagen."; break;
                 case "11": maand = "November " + november + " dagen."; break;
                 case "12": maand = "December " + december + " dagen."; break;
-                default: maand = "..."; break;
+                default: maand = "Een echte maandnummer ;)"; break;
             }
             repaint();
         }
