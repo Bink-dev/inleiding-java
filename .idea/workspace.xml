@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H09&gt; Vraag">
-      <change afterPath="$PROJECT_DIR$/src/h10/GrootsteNummer.java" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer">
+      <change afterPath="$PROJECT_DIR$/src/h10/MaandApplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,16 +65,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.GrootsteNummer">
+  <component name="RunManager" selected="Applet.MaandApplet">
     <configuration name="Beslissingen" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h10.Beslissingen" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Beslissingen2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.Beslissingen2" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,6 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaandApplet" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h10.MaandApplet" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Schrikkeljaar" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h10.Schrikkeljaar" />
       <module name="inleiding-java" />
@@ -108,13 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,18 +124,18 @@
     <list>
       <item itemvalue="Applet.Grootstenummer" />
       <item itemvalue="Applet.Beslissingen" />
-      <item itemvalue="Applet.Beslissingen2" />
       <item itemvalue="Applet.Switch" />
       <item itemvalue="Applet.Schrikkeljaar" />
       <item itemvalue="Applet.GrootsteNummer" />
+      <item itemvalue="Applet.MaandApplet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.MaandApplet" />
         <item itemvalue="Applet.GrootsteNummer" />
         <item itemvalue="Applet.Switch" />
         <item itemvalue="Applet.Schrikkeljaar" />
         <item itemvalue="Applet.Beslissingen" />
-        <item itemvalue="Applet.Beslissingen2" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,8 @@
       <workItem from="1601124574029" duration="7182000" />
       <workItem from="1601193504499" duration="6550000" />
       <workItem from="1601275452278" duration="9280000" />
-      <workItem from="1601452459639" duration="9286000" />
+      <workItem from="1601452459639" duration="10682000" />
+      <workItem from="1601545507190" duration="1625000" />
     </task>
     <task id="LOCAL-00001" summary="Change of text from Hallo klas 8A &gt; I like ya cut g">
       <created>1599644971622</created>
@@ -362,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601314883725</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer">
+      <created>1601462946201</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601462946201</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +391,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H02&gt; Applet opdrachten + vragen" />
     <MESSAGE value="H04&gt; Huis &amp; Driehoek" />
     <MESSAGE value="H04&gt; Huis,Driehoek &amp; Vlag" />
     <MESSAGE value="H04&gt; Vlag" />
@@ -406,7 +415,8 @@
     <MESSAGE value="H08&gt; Opdracht 8 Praktijk" />
     <MESSAGE value="H08&gt; Opdracht 8 re- Praktijkopdracht em btwberekenaar samen met jorn bekeken." />
     <MESSAGE value="H09&gt; Vraag" />
-    <option name="LAST_COMMIT_MESSAGE" value="H09&gt; Vraag" />
+    <MESSAGE value="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer" />
+    <option name="LAST_COMMIT_MESSAGE" value="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1600337683588">
@@ -433,22 +443,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1601462899617">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1601547122969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601462899617" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1601462899617">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601547122969" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1601547122969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601462899617" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1601462899617">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601547122969" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1601547122969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601462899617" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1601462899617">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601547122969" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1601547122969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601462899617" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601547122969" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1601156292632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -473,17 +483,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601314885712">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601462947883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601314885712" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601462947883" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601120151713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601120151713" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601025870974">
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601545632497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601025870974" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601545632497" />
   </component>
 </project>
