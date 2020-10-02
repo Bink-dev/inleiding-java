@@ -13,7 +13,7 @@ public class MaandApplet extends Applet {
     String output;
 
     // Variabelen voor Int(s)
-    int januari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december,jaartal;
+    int aantalDagenInJanuari,februari,maart,april,mei,juni,juli,augustus,september,oktober,november,december,jaartal;
 
     public void init() {
         // Grootte Applet bepalen
@@ -28,8 +28,8 @@ public class MaandApplet extends Applet {
        add(tekstvak2);
        output = "...";
 
-       // Declareren waardes van maanden (dagaantal)
-        januari = 31;
+       // Initialisatie waardes Dagaantal in de maanden
+        aantalDagenInJanuari = 31;
         februari = 28;
         maart = 31;
         april = 30;
@@ -54,9 +54,12 @@ public class MaandApplet extends Applet {
             String userInputMaand = tekstvak1.getText();
             String userInputJaar = tekstvak2.getText();
             jaartal = Integer.parseInt(userInputJaar);
+            if ((jaartal % 4 == 0 && !(jaartal % 100 == 0)) || jaartal % 400 == 0 ) {
 
+                februari++;
+            }
             switch (userInputMaand){
-                case "1": output = "Januari " + jaartal + " " + januari + " dagen."; break;
+                case "1": output = "Januari " + jaartal + " " + aantalDagenInJanuari + " dagen."; break;
                 case "2": output = "Februari " + jaartal + " " + februari + " dagen."; break;
                 case "3": output = "Maart " + jaartal + " " + maart + " dagen."; break;
                 case "4": output = "April " + jaartal + " " + april + " dagen."; break;
@@ -69,12 +72,10 @@ public class MaandApplet extends Applet {
                 case "11": output = "November " + jaartal + " " + november + " dagen."; break;
                 case "12": output = "December " + jaartal + " " + december + " dagen."; break;
                 default: output = "Een echt maandnummer ;)"; break;
+            }
+            februari = 28;
 
-            } repaint();
 
-            if ( (jaartal % 4 == 0 && !(jaartal % 100 == 0)) || jaartal % 400 == 0 )
-                februari++;
-            else {februari = 28;}
             repaint();
             }
         }

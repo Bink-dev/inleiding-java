@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)">
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen.">
+      <change afterPath="$PROJECT_DIR$/src/h10/CijferCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h10/MaandApplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/MaandApplet.java" afterDir="false" />
     </list>
@@ -65,16 +66,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.MaandApplet">
-    <configuration name="Beslissingen" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.Beslissingen" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrootsteNummer" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.GrootsteNummer" />
+  <component name="RunManager" selected="Applet.CijferCalculator">
+    <configuration name="CijferCalculator" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h10.CijferCalculator" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,22 +81,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaandApplet" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.MaandApplet" />
+    <configuration name="OkEnReset" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.OkEnReset" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Schrikkeljaar" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.Schrikkeljaar" />
+    <configuration name="OpenAvond" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.OpenAvond" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.Switch" />
+    <configuration name="Tekstknop" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.Tekstknop" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekstvak" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.Tekstvak" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,19 +122,19 @@
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.Beslissingen" />
-      <item itemvalue="Applet.Switch" />
-      <item itemvalue="Applet.Schrikkeljaar" />
-      <item itemvalue="Applet.GrootsteNummer" />
-      <item itemvalue="Applet.MaandApplet" />
+      <item itemvalue="Applet.CijferCalculator" />
+      <item itemvalue="Applet.Tekstvak" />
+      <item itemvalue="Applet.Tekstknop" />
+      <item itemvalue="Applet.OpenAvond" />
+      <item itemvalue="Applet.OkEnReset" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.MaandApplet" />
-        <item itemvalue="Applet.GrootsteNummer" />
-        <item itemvalue="Applet.Switch" />
-        <item itemvalue="Applet.Schrikkeljaar" />
-        <item itemvalue="Applet.Beslissingen" />
+        <item itemvalue="Applet.CijferCalculator" />
+        <item itemvalue="Applet.OkEnReset" />
+        <item itemvalue="Applet.OpenAvond" />
+        <item itemvalue="Applet.Tekstknop" />
+        <item itemvalue="Applet.Tekstvak" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,9 @@
       <workItem from="1601275452278" duration="9280000" />
       <workItem from="1601452459639" duration="10682000" />
       <workItem from="1601545507190" duration="2180000" />
-      <workItem from="1601621165065" duration="2280000" />
+      <workItem from="1601621165065" duration="4203000" />
+      <workItem from="1601630841687" duration="6029000" />
+      <workItem from="1601636918838" duration="2737000" />
     </task>
     <task id="LOCAL-00001" summary="Change of text from Hallo klas 8A &gt; I like ya cut g">
       <created>1599644971622</created>
@@ -385,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601547691381</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen.">
+      <created>1601623732150</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601623732150</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +414,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H04&gt; Huis,Driehoek &amp; Vlag" />
     <MESSAGE value="H04&gt; Vlag" />
     <MESSAGE value="H04&gt; GewichtDiagram" />
     <MESSAGE value="H04&gt; Ellips" />
@@ -429,7 +438,8 @@
     <MESSAGE value="H09&gt; Vraag" />
     <MESSAGE value="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer" />
     <MESSAGE value="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)" />
-    <option name="LAST_COMMIT_MESSAGE" value="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)" />
+    <MESSAGE value="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen." />
+    <option name="LAST_COMMIT_MESSAGE" value="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1600337683588">
@@ -456,22 +466,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1601623376838">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1601639513933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601623376838" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1601623376838">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601639513933" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1601639513933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601623376838" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1601623376838">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601639513933" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1601639513932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601623376838" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1601623376838">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601639513932" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1601639513933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601623376838" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601639513933" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1601156292632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -496,14 +506,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601547295505">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601623755356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601547295505" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1601120151713">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601623755356" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601624156039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601120151713" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601624156039" />
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601545632497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
