@@ -10,7 +10,7 @@ public class CijferCalculator extends Applet {
     TextField tekstVakH1, tekstVakH2,tekstVakH3, tekstVakH4, tekstVakH5;
 
     // Variabelen voor Antwoord(en)
-    double antwoordH1,antwoordH2,antwoordH3,antwoordH4,antwoordH5,antwoordGemiddelde,antwoordGemiddelde2;
+    double antwoordH1,antwoordH2,antwoordH3,antwoordH4,antwoordH5,antwoordGemiddelde,antwoordGemiddelde2,cijferAantal;
 
     // Variabelen voor de String(s)
     String tekstAntwoordH1,tekstAntwoordH2,tekstAntwoordH3,tekstAntwoordH4,tekstAntwoordH5,tekstAntwoordGemiddelde;
@@ -46,6 +46,9 @@ public class CijferCalculator extends Applet {
         // Gemiddelde initialiseren
         antwoordGemiddelde = 0;
 
+        // Cijferaantal initialiseren
+        cijferAantal = 0;
+
     }
 
     public void paint(Graphics g) {
@@ -80,6 +83,7 @@ public class CijferCalculator extends Applet {
             String userInputH4 = tekstVakH4.getText();
             String userInputH5 = tekstVakH5.getText();
 
+
             // Antwoorden converteren naar doubles
             antwoordH1 = Double.parseDouble(userInputH1);
             antwoordH2 = Double.parseDouble(userInputH2);
@@ -87,30 +91,74 @@ public class CijferCalculator extends Applet {
             antwoordH4 = Double.parseDouble(userInputH4);
             antwoordH5 = Double.parseDouble(userInputH5);
 
+            // Checken of userinputs wat bevatten anders omzetten naar 0.0
+            if (userInputH1 == "Voer uw cijfer in voor H1")
+                tekstVakH1 = new TextField("0.0"); tekstAntwoordH1 = "Je hebt geen cijfer ingevoerd";
+
+            if (userInputH2 == "Voer uw cijfer in voor H2")
+                tekstVakH2 = new TextField ("0.0"); tekstAntwoordH2 = "Je hebt geen cijfer ingevoerd";
+
+            if (userInputH3 == "Voer uw cijfer in voor H3")
+                tekstVakH3 = new TextField ("0.0"); tekstAntwoordH3 = "Je hebt geen cijfer ingevoerd";
+
+            if (userInputH4 == "Voer uw cijfer in voor H4")
+                tekstVakH4 = new TextField ("0.0"); tekstAntwoordH4 = "Je hebt geen cijfer ingevoerd";
+
+            if (userInputH5 == "Voer uw cijfer in voor H5")
+                tekstVakH5 = new TextField ("0.0"); tekstAntwoordH5 = "Je hebt geen cijfer ingevoerd";
+
+            repaint();
+
             // if else statement voor elk tekstvak
-            if (antwoordH1 < 5.5)
+            if (antwoordH1 > 0.1)
+                cijferAantal++;
+            else{antwoordH1 = 0.0; tekstVakH1 = new TextField("0.0");}
+
+            if (antwoordH2 > 0.1)
+                cijferAantal++;
+            else{antwoordH2 = 0.0; tekstVakH2 = new TextField("0.0");}
+
+            if (antwoordH3 > 0.1)
+                cijferAantal++;
+            else{antwoordH3 = 0.0; tekstVakH3 = new TextField("0.0");}
+
+            if (antwoordH4 > 0.1)
+                cijferAantal++;
+            else{antwoordH4 = 0.0; tekstVakH4 = new TextField("0.0");}
+
+            if (antwoordH5 > 0.1)
+                cijferAantal++;
+            else{antwoordH5 = 0.0; tekstVakH5 = new TextField("0.0");}
+
+            if (antwoordH1 < 5.5) {
                 tekstAntwoordH1 = antwoordH1 + " Je hebt een onvoldoende";
+            }
             else {tekstAntwoordH1 = antwoordH1 + " Je hebt een voldoende";}
 
-            if (antwoordH2 < 5.5)
+            if (antwoordH2 < 5.5) {
                 tekstAntwoordH2 = antwoordH2 + " Je hebt een onvoldoende";
+            }
             else {tekstAntwoordH2 = antwoordH2 + " Je hebt een voldoende";}
 
-            if (antwoordH3 < 5.5)
+            if (antwoordH3 < 5.5) {
                 tekstAntwoordH3 = antwoordH3 + " Je hebt een onvoldoende";
+            }
             else {tekstAntwoordH3 = antwoordH3 + " Je hebt een voldoende";}
 
-            if (antwoordH4 < 5.5)
+            if (antwoordH4 < 5.5) {
                 tekstAntwoordH4 = antwoordH4 + " Je hebt een onvoldoende";
+            }
             else {tekstAntwoordH4 = antwoordH4 + " Je hebt een voldoende";}
 
-            if (antwoordH5 < 5.5)
+            if (antwoordH5 < 5.5) {
                 tekstAntwoordH5 = antwoordH5 + " Je hebt een onvoldoende";
+            }
             else {tekstAntwoordH5 = antwoordH5 + " Je hebt een voldoende";}
+
 
             // Antwoord gemiddelde berekenen en afronden op een decimaal
             antwoordGemiddelde = (antwoordH1 + antwoordH2 + antwoordH3 + antwoordH4 + antwoordH5);
-            antwoordGemiddelde2 = Math.round(((antwoordGemiddelde / 5) * 10));
+            antwoordGemiddelde2 = Math.round(((antwoordGemiddelde / cijferAantal) * 10));
             antwoordGemiddelde = antwoordGemiddelde2 / 10;
 
             // if else statement voor het gemiddelde
