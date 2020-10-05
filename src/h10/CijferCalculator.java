@@ -76,6 +76,7 @@ public class CijferCalculator extends Applet {
     class TekstVakListener implements ActionListener{
 
         public void actionPerformed(ActionEvent e) {
+            cijferAantal = 0;
             // Userinputs Declareren en initialiseren
             String userInputH1 = tekstVakH1.getText();
             String userInputH2 = tekstVakH2.getText();
@@ -83,52 +84,46 @@ public class CijferCalculator extends Applet {
             String userInputH4 = tekstVakH4.getText();
             String userInputH5 = tekstVakH5.getText();
 
-
-            // Antwoorden converteren naar doubles
-            antwoordH1 = Double.parseDouble(userInputH1);
-            antwoordH2 = Double.parseDouble(userInputH2);
-            antwoordH3 = Double.parseDouble(userInputH3);
-            antwoordH4 = Double.parseDouble(userInputH4);
-            antwoordH5 = Double.parseDouble(userInputH5);
-
-            // Checken of userinputs wat bevatten anders omzetten naar 0.0
-            if (userInputH1 == "Voer uw cijfer in voor H1")
-                tekstVakH1 = new TextField("0.0"); tekstAntwoordH1 = "Je hebt geen cijfer ingevoerd";
-
-            if (userInputH2 == "Voer uw cijfer in voor H2")
-                tekstVakH2 = new TextField ("0.0"); tekstAntwoordH2 = "Je hebt geen cijfer ingevoerd";
-
-            if (userInputH3 == "Voer uw cijfer in voor H3")
-                tekstVakH3 = new TextField ("0.0"); tekstAntwoordH3 = "Je hebt geen cijfer ingevoerd";
-
-            if (userInputH4 == "Voer uw cijfer in voor H4")
-                tekstVakH4 = new TextField ("0.0"); tekstAntwoordH4 = "Je hebt geen cijfer ingevoerd";
-
-            if (userInputH5 == "Voer uw cijfer in voor H5")
-                tekstVakH5 = new TextField ("0.0"); tekstAntwoordH5 = "Je hebt geen cijfer ingevoerd";
-
-            repaint();
-
-            // if else statement voor elk tekstvak
-            if (antwoordH1 > 0.1)
+            try {
+                antwoordH1 = Double.parseDouble(userInputH1);
                 cijferAantal++;
-            else{antwoordH1 = 0.0; tekstVakH1 = new TextField("0.0");}
-
-            if (antwoordH2 > 0.1)
+                if (antwoordH1 > 10 || antwoordH1 < 0.0) antwoordH1 = 0.0;
+            } catch (Exception exception){
+                antwoordH1 = 0.0;
+                tekstAntwoordH1 = "Je hebt geen cijfer ingevoerd!";
+            }
+            try {
+                antwoordH2 = Double.parseDouble(userInputH2);
                 cijferAantal++;
-            else{antwoordH2 = 0.0; tekstVakH2 = new TextField("0.0");}
-
-            if (antwoordH3 > 0.1)
+                if (antwoordH2 > 10 || antwoordH2 < 0.0) antwoordH2 = 0.0;
+            } catch (Exception exception){
+                antwoordH2 = 0.0;
+                tekstAntwoordH2 = "Je hebt geen cijfer ingevoerd!";
+            }
+            try {
+                antwoordH3 = Double.parseDouble(userInputH3);
                 cijferAantal++;
-            else{antwoordH3 = 0.0; tekstVakH3 = new TextField("0.0");}
-
-            if (antwoordH4 > 0.1)
+                if (antwoordH3 > 10 || antwoordH3 < 0.0) antwoordH3 = 0.0;
+            } catch (Exception exception){
+                antwoordH3 = 0.0;
+                tekstAntwoordH3 = "Je hebt geen cijfer ingevoerd!";
+            }
+            try {
+                antwoordH4 = Double.parseDouble(userInputH4);
                 cijferAantal++;
-            else{antwoordH4 = 0.0; tekstVakH4 = new TextField("0.0");}
-
-            if (antwoordH5 > 0.1)
+                if (antwoordH4 > 10 || antwoordH4 < 0.0) antwoordH4 = 0.0;
+            } catch (Exception exception){
+                antwoordH4 = 0.0;
+                tekstAntwoordH4 = "Je hebt geen cijfer ingevoerd!";
+            }
+            try {
+                antwoordH5 = Double.parseDouble(userInputH5);
                 cijferAantal++;
-            else{antwoordH5 = 0.0; tekstVakH5 = new TextField("0.0");}
+                if (antwoordH5 > 10 || antwoordH5 < 0.0) antwoordH5 = 0.0;
+            } catch (Exception exception){
+                antwoordH5 = 0.0;
+                tekstAntwoordH5 = "Je hebt geen cijfer ingevoerd!";
+            }
 
             if (antwoordH1 < 5.5) {
                 tekstAntwoordH1 = antwoordH1 + " Je hebt een onvoldoende";
@@ -155,6 +150,20 @@ public class CijferCalculator extends Applet {
             }
             else {tekstAntwoordH5 = antwoordH5 + " Je hebt een voldoende";}
 
+            if (antwoordH1 == 0.0)
+                tekstAntwoordH1 = "Je hebt geen cijfer ingevoerd!";
+
+            if (antwoordH2 == 0.0)
+                tekstAntwoordH2 = "Je hebt geen cijfer ingevoerd!";
+
+            if (antwoordH3 == 0.0)
+                tekstAntwoordH3 = "Je hebt geen cijfer ingevoerd!";
+
+            if (antwoordH4 == 0.0)
+                tekstAntwoordH4 = "Je hebt geen cijfer ingevoerd!";
+
+            if (antwoordH5 == 0.0)
+                tekstAntwoordH5 = "Je hebt geen cijfer ingevoerd!";
 
             // Antwoord gemiddelde berekenen en afronden op een decimaal
             antwoordGemiddelde = (antwoordH1 + antwoordH2 + antwoordH3 + antwoordH4 + antwoordH5);
