@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H10 &gt; Opdracht 10.5 Werkt (maandag finetunen samen met jorn) + Praktijkopdracht, werkt volledig.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H10 &gt; Opdracht 10.5 Werkt volledig (geen cijfers ingevoerd &gt; 0.0 (if 0.0 &quot;geen cijfer ingevoerd)) Jorn heeft meegekeken en meegeholpen met wat ik kon doen&quot;">
+      <change afterPath="$PROJECT_DIR$/src/OefenOpdracht/oefenOpdracht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h11/Oefeningen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h11/VerticaleLijnen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h10/CijferCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/CijferCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.CijferCalculator">
+  <component name="RunManager" selected="Applet.oefenOpdracht">
     <configuration name="CijferCalculator" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h10.CijferCalculator" />
       <module name="inleiding-java" />
@@ -88,13 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAvond" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h08.OpenAvond" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PraktijkOpdracht" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h10.PraktijkOpdracht" />
       <module name="inleiding-java" />
@@ -109,21 +103,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oefenOpdracht" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OefenOpdracht.oefenOpdracht" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
       <item itemvalue="Applet.CijferCalculator" />
-      <item itemvalue="Applet.OpenAvond" />
       <item itemvalue="Applet.OkEnReset" />
       <item itemvalue="Applet.Vragen" />
       <item itemvalue="Applet.PraktijkOpdracht" />
+      <item itemvalue="Applet.oefenOpdracht" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.CijferCalculator" />
+        <item itemvalue="Applet.oefenOpdracht" />
         <item itemvalue="Applet.PraktijkOpdracht" />
+        <item itemvalue="Applet.CijferCalculator" />
         <item itemvalue="Applet.Vragen" />
         <item itemvalue="Applet.OkEnReset" />
-        <item itemvalue="Applet.OpenAvond" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +182,8 @@
       <workItem from="1601711973855" duration="3577000" />
       <workItem from="1601797451619" duration="3650000" />
       <workItem from="1601886664605" duration="2297000" />
-      <workItem from="1601891456325" duration="301000" />
+      <workItem from="1601891456325" duration="599000" />
+      <workItem from="1601980554999" duration="4186000" />
     </task>
     <task id="LOCAL-00001" summary="Change of text from Hallo klas 8A &gt; I like ya cut g">
       <created>1599644971622</created>
@@ -396,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601800857723</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="H10 &gt; Opdracht 10.5 Werkt volledig (geen cijfers ingevoerd &gt; 0.0 (if 0.0 &quot;geen cijfer ingevoerd)) Jorn heeft meegekeken en meegeholpen met wat ik kon doen&quot;">
+      <created>1601891850832</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601891850832</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +435,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H04&gt; GewichtDiagram" />
     <MESSAGE value="H04&gt; Ellips" />
     <MESSAGE value="H04&gt; Stoplicht" />
     <MESSAGE value="H04&gt; Dobbelsteen" />
@@ -440,7 +459,8 @@
     <MESSAGE value="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)" />
     <MESSAGE value="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen." />
     <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt (maandag finetunen samen met jorn) + Praktijkopdracht, werkt volledig." />
-    <option name="LAST_COMMIT_MESSAGE" value="H10 &gt; Opdracht 10.5 Werkt (maandag finetunen samen met jorn) + Praktijkopdracht, werkt volledig." />
+    <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt volledig (geen cijfers ingevoerd &gt; 0.0 (if 0.0 &quot;geen cijfer ingevoerd)) Jorn heeft meegekeken en meegeholpen met wat ik kon doen&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="H10 &gt; Opdracht 10.5 Werkt volledig (geen cijfers ingevoerd &gt; 0.0 (if 0.0 &quot;geen cijfer ingevoerd)) Jorn heeft meegekeken en meegeholpen met wat ik kon doen&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1600337683588">
@@ -467,22 +487,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1601891446383">
+    <state width="916" height="290" key="GridCell.Tab.0.bottom" timestamp="1601984871263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601891446383" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1601891446383">
+    <state width="916" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601984871263" />
+    <state width="916" height="290" key="GridCell.Tab.0.center" timestamp="1601984871263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601891446383" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1601891446383">
+    <state width="916" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601984871263" />
+    <state width="916" height="290" key="GridCell.Tab.0.left" timestamp="1601984871263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601891446383" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1601891446383">
+    <state width="916" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601984871263" />
+    <state width="916" height="290" key="GridCell.Tab.0.right" timestamp="1601984871263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601891446383" />
+    <state width="916" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601984871263" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1601156292632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -507,10 +527,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601800859476">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601891853427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601800859476" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601891853427" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601624156039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
