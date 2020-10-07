@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H11 &gt; Nummering tussen 10 &amp; 20 loop">
-      <change afterPath="$PROJECT_DIR$/src/h11/Fibonacci.java" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H11 &gt; opdracht 3. De fibonacci series werkt, geprobeerd in applet te plaatsen maar niet succesvol.">
+      <change afterPath="$PROJECT_DIR$/src/h11/Tafel3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.Fibonacci">
+  <component name="RunManager" selected="Applet.Tafel3">
     <configuration name="Fail" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h11.Fail" />
       <module name="inleiding-java" />
@@ -94,15 +94,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticaleLijnen" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.VerticaleLijnen" />
+    <configuration name="Tafel3" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.Tafel3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vragen (1)" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Vragen" />
+    <configuration name="VerticaleLijnen" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.VerticaleLijnen" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,19 +123,19 @@
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.Vragen (1)" />
       <item itemvalue="Applet.Fail" />
       <item itemvalue="Applet.VerticaleLijnen" />
       <item itemvalue="Applet.Nummering" />
       <item itemvalue="Applet.Fibonacci" />
+      <item itemvalue="Applet.Tafel3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.Fibonacci" />
+        <item itemvalue="Applet.Tafel3" />
         <item itemvalue="Applet.Nummering" />
+        <item itemvalue="Applet.Fibonacci" />
         <item itemvalue="Applet.VerticaleLijnen" />
         <item itemvalue="Applet.Fail" />
-        <item itemvalue="Applet.Vragen (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,7 @@
       <workItem from="1601886664605" duration="2297000" />
       <workItem from="1601891456325" duration="599000" />
       <workItem from="1601980554999" duration="4417000" />
-      <workItem from="1602057518736" duration="6345000" />
+      <workItem from="1602057518736" duration="8380000" />
     </task>
     <task id="LOCAL-00001" summary="Change of text from Hallo klas 8A &gt; I like ya cut g">
       <created>1599644971622</created>
@@ -438,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602060726442</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="H11 &gt; opdracht 3. De fibonacci series werkt, geprobeerd in applet te plaatsen maar niet succesvol.">
+      <created>1602064059085</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1602064059085</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H04&gt; PraktijkOpdracht" />
     <MESSAGE value="H05&gt; PraktijkOpdracht met variabelen" />
     <MESSAGE value="H05&gt; gewichtdiagram met variabelen" />
     <MESSAGE value="H06&gt; vragen" />
@@ -482,7 +488,8 @@
     <MESSAGE value="Oefenopdracht op school" />
     <MESSAGE value="H11 &gt; Vragen + 11.1 Verticale lijnen" />
     <MESSAGE value="H11 &gt; Nummering tussen 10 &amp; 20 loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="H11 &gt; Nummering tussen 10 &amp; 20 loop" />
+    <MESSAGE value="H11 &gt; opdracht 3. De fibonacci series werkt, geprobeerd in applet te plaatsen maar niet succesvol." />
+    <option name="LAST_COMMIT_MESSAGE" value="H11 &gt; opdracht 3. De fibonacci series werkt, geprobeerd in applet te plaatsen maar niet succesvol." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1600337683588">
@@ -513,38 +520,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1602063850738">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1602065944854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602063850738" />
-    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1602063850736">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602065944854" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1602065944854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602063850736" />
-    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1602063850736">
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602065944854" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1602065944854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602063850736" />
-    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1602063850737">
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602065944854" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1602065944854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602063850737" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1602063813664">
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602065944854" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1602065688606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602063813664" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1602063813664">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602065688606" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1602065688605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602063813664" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1602063813664">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602065688605" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1602065688605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602063813664" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1602063813664">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602065688605" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1602065688606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602063813664" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602065688606" />
     <state x="651" y="240" key="RollbackChangesDialog" timestamp="1601891443208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -553,14 +560,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602060728205">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602064063327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602060728205" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1601624156039">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602064063327" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602065536217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601624156039" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602065536217" />
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601545632497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
