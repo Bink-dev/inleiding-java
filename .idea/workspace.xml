@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H11&gt; opdracht 7, Cirkelseries 50 gecentreerde cirkels.">
-      <change afterPath="$PROJECT_DIR$/src/h11/CirkelSeries3.java" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H11&gt; opdracht 8, Cirkelseries 100 cirkels zelfde startpunt maar elke keer wat groter">
+      <change afterPath="$PROJECT_DIR$/src/h11/Schaakbord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,7 +66,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.CirkelSeries3">
+  <component name="RunManager" selected="Applet.Schaakbord">
     <configuration name="CirkelSeries1" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h11.CirkelSeries1" />
       <module name="inleiding-java" />
@@ -93,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tafel3" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Tafel3" />
+    <configuration name="Schaakbord" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.Schaakbord" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,32 +109,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.Tafel3" />
       <item itemvalue="Applet.VierkantSeries" />
       <item itemvalue="Applet.CirkelSeries1" />
       <item itemvalue="Applet.CirkelSeries2" />
       <item itemvalue="Applet.CirkelSeries3" />
+      <item itemvalue="Applet.Schaakbord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Schaakbord" />
         <item itemvalue="Applet.CirkelSeries3" />
         <item itemvalue="Applet.CirkelSeries2" />
         <item itemvalue="Applet.CirkelSeries1" />
         <item itemvalue="Applet.VierkantSeries" />
-        <item itemvalue="Applet.Tafel3" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +186,8 @@
       <workItem from="1601891456325" duration="599000" />
       <workItem from="1601980554999" duration="4417000" />
       <workItem from="1602057518736" duration="8681000" />
-      <workItem from="1602236002699" duration="2339000" />
+      <workItem from="1602236002699" duration="3477000" />
+      <workItem from="1602239521628" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="Change of text from Hallo klas 8A &gt; I like ya cut g">
       <created>1599644971622</created>
@@ -471,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602238192418</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="H11&gt; opdracht 8, Cirkelseries 100 cirkels zelfde startpunt maar elke keer wat groter">
+      <created>1602238503670</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1602238503670</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +502,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H06&gt; 2 positieven naar een negatief" />
     <MESSAGE value="H06&gt; Praktijkopdracht" />
     <MESSAGE value="H07&gt; Vragen" />
     <MESSAGE value="H08&gt; oefenopgaven" />
@@ -515,7 +526,8 @@
     <MESSAGE value="H11&gt; opdracht 5, Vierkantseries afgerond. Begin opdracht 6 cirkelseries 1." />
     <MESSAGE value="H11&gt; opdracht 6 , Cirkelseries 5 x gecentreerde cirkels." />
     <MESSAGE value="H11&gt; opdracht 7, Cirkelseries 50 gecentreerde cirkels." />
-    <option name="LAST_COMMIT_MESSAGE" value="H11&gt; opdracht 7, Cirkelseries 50 gecentreerde cirkels." />
+    <MESSAGE value="H11&gt; opdracht 8, Cirkelseries 100 cirkels zelfde startpunt maar elke keer wat groter" />
+    <option name="LAST_COMMIT_MESSAGE" value="H11&gt; opdracht 8, Cirkelseries 100 cirkels zelfde startpunt maar elke keer wat groter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1600337683588">
@@ -546,22 +558,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1602238198160">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1602241221196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602238198160" />
-    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1602238198160">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602241221196" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1602241221196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602238198160" />
-    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1602238198160">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602241221196" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1602241221195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602238198160" />
-    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1602238198160">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602241221195" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1602241221196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602238198160" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602241221196" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1602066270568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -578,18 +590,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602066270568" />
-    <state x="651" y="240" key="RollbackChangesDialog" timestamp="1601891443208">
+    <state x="651" y="240" key="RollbackChangesDialog" timestamp="1602240641448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601891443208" />
+    <state x="651" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602240641448" />
     <state x="584" y="155" key="SettingsEditor" timestamp="1601313755853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602238194187">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602238508874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602238194187" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602238508873" />
+    <state x="690" y="281" key="extract.method.dialog" timestamp="1602240531264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="281" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602240531264" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602065536217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
