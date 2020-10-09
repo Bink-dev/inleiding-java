@@ -10,18 +10,18 @@ public class PraktijkOpdracht2 extends Applet {
     Label label;
 
     // Initialiseren onzichtbare Button(s)
-    Button onzichtbareKnop;
+    Button okKnop;
 
     // Initialiseren waarde(s)
     int waarde;
 
     public void init() {
-        onzichtbareKnop = new Button("");
-        onzichtbareKnop.addActionListener(new enterListener());
+        okKnop = new Button("Ok ->");
+        okKnop.addActionListener(new KnopListener());
         waarde = 1;
         label = new Label("De tafel van " + waarde);
         add(label);
-        add(onzichtbareKnop);
+        add(okKnop);
 
     }
 
@@ -40,7 +40,7 @@ public class PraktijkOpdracht2 extends Applet {
             waarde = 0;
     }
 
-    class enterListener implements ActionListener {
+    class KnopListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
             waarde++;
