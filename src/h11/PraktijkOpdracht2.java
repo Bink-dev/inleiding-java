@@ -31,6 +31,7 @@ public class PraktijkOpdracht2 extends Applet {
         int teller = 0;
 
         while (teller < count && teller >= 0) {
+            label.setText("De tafel van " + waarde);
             teller++;
             yCoordinaat += 20;
             g.drawString(teller + " * " + waarde + " = " + teller * waarde,20,yCoordinaat);
@@ -44,6 +45,7 @@ public class PraktijkOpdracht2 extends Applet {
 
         public void actionPerformed(ActionEvent e) {
             waarde++;
+            //System.out.println(waarde);
             repaint();
 
         }
