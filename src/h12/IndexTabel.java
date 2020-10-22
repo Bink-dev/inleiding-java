@@ -32,7 +32,6 @@ public class IndexTabel extends Applet {
             }
             teller++;
         }
-
     }
 
     public void paint(Graphics g) {
@@ -43,7 +42,6 @@ public class IndexTabel extends Applet {
         if (gevonden == true) {
 
         }
-
     }
 
     class OkKnopListener implements ActionListener{

@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet.">
-      <change afterPath="$PROJECT_DIR$/src/h12/IndexTabel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,14 +198,7 @@
       <workItem from="1602931225234" duration="6074000" />
       <workItem from="1603089965697" duration="6644000" />
       <workItem from="1603189193453" duration="6310000" />
-      <workItem from="1603362040831" duration="2922000" />
-    </task>
-    <task id="LOCAL-00003" summary="H04&gt; Huis &amp; Driehoek">
-      <created>1599912866615</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599912866616</updated>
+      <workItem from="1603362040831" duration="3336000" />
     </task>
     <task id="LOCAL-00004" summary="H04&gt; Huis &amp; Driehoek">
       <created>1599916733568</created>
@@ -546,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603195413522</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)">
+      <created>1603366183866</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1603366183866</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +562,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H08&gt; Opdracht 8 re- Praktijkopdracht em btwberekenaar samen met jorn bekeken." />
     <MESSAGE value="H09&gt; Vraag" />
     <MESSAGE value="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer" />
     <MESSAGE value="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)" />
@@ -590,7 +586,8 @@
     <MESSAGE value="H12 &gt; opdracht 1 bekeken met Jorn, gemiddelde word nu berekent." />
     <MESSAGE value="H12 &gt; opdracht 2, Button Array met 25 knoppen ( niet volledig zelf gedaan vanwege vastloping en hulp )." />
     <MESSAGE value="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet." />
-    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet." />
+    <MESSAGE value="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)" />
+    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
