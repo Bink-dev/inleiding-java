@@ -30,7 +30,7 @@ public class IndexTabel extends Applet {
 
     public void paint(Graphics g) {
         for (int teller = 0; teller < getallen.length; teller++){
-            g.drawString("" + getallen[teller],50,20 * teller + 20);
+            g.drawString("" + getallen[teller],50,20 * teller + 20);// als je hier break; neerzet word de loop gestopt zodra de waarde is gevonden.
         }
 
         if (eerstePoging){
