@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class IndexTabel extends Applet {
-    boolean gevonden;
+    boolean gevonden,eerstePoging;
 
     Button okKnop;
 
@@ -16,22 +16,16 @@ public class IndexTabel extends Applet {
 
     double gezocht;
 
+    int index;
+
     public void init() {
         tekstvak = new TextField("Voer een getal in");
-        tekstvak.addActionListener(new OkKnopListener());
         okKnop = new Button("Ok");
+        okKnop.addActionListener(new OkKnopListener());
         add(tekstvak);
         add(okKnop);
 
-        gezocht = Double.parseDouble(tekstvak.getText());
-        gevonden = false;
-        int teller = 0;
-        while (teller < getallen.length) {
-            if (getallen[teller] == gezocht) {
-                gevonden = true;
-            }
-            teller++;
-        }
+        eerstePoging = true;
     }
 
     public void paint(Graphics g) {
@@ -39,16 +33,35 @@ public class IndexTabel extends Applet {
             g.drawString("" + getallen[teller],50,20 * teller + 20);
         }
 
-        if (gevonden == true) {
+        if (eerstePoging){
 
+        }
+        else{
+
+            if (gevonden) {
+                g.drawString("Waarde gevonden op index " + index,120,120);
+            }
+            else {
+                g.drawString("Waarde niet gevonden!",120,120);
+            }
         }
     }
 
     class OkKnopListener implements ActionListener{
 
         public void actionPerformed(ActionEvent e) {
+            eerstePoging = false;
             gezocht = Double.parseDouble(tekstvak.getText());
+            gevonden = false;
 
+            for (int i = 0; i < getallen.length; i++) {
+                if (gezocht == getallen[i]){
+                    gevonden = true;
+                    index = i;
+
+                }
+            }
+            repaint();
         }
     }
 }
