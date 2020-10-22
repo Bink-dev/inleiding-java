@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 2, Button Array met 25 knoppen ( niet volledig zelf gedaan vanwege vastloping en hulp ).">
-      <change afterPath="$PROJECT_DIR$/src/h12/TextFieldArray.java" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet.">
+      <change afterPath="$PROJECT_DIR$/src/h12/IndexTabel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.TextFieldArray">
+  <component name="RunManager" selected="Applet.IndexTabel">
     <configuration name="GemiddeldeTabel" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h12.GemiddeldeTabel" />
       <module name="inleiding-java" />
@@ -89,15 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnopArray" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.KnopArray" />
+    <configuration name="IndexTabel" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.IndexTabel" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PraktijkOpdracht2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.PraktijkOpdracht2" />
+    <configuration name="KnopArray" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.KnopArray" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,32 +117,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.PraktijkOpdracht2" />
       <item itemvalue="Applet.oefening" />
       <item itemvalue="Applet.GemiddeldeTabel" />
       <item itemvalue="Applet.KnopArray" />
       <item itemvalue="Applet.TextFieldArray" />
+      <item itemvalue="Applet.IndexTabel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.TextFieldArray" />
-        <item itemvalue="Applet.KnopArray" />
+        <item itemvalue="Applet.IndexTabel" />
         <item itemvalue="Applet.GemiddeldeTabel" />
         <item itemvalue="Applet.oefening" />
-        <item itemvalue="Applet.PraktijkOpdracht2" />
+        <item itemvalue="Applet.TextFieldArray" />
+        <item itemvalue="Applet.KnopArray" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +200,8 @@
       <workItem from="1602667654169" duration="4720000" />
       <workItem from="1602931225234" duration="6074000" />
       <workItem from="1603089965697" duration="6644000" />
-      <workItem from="1603189193453" duration="6086000" />
-    </task>
-    <task id="LOCAL-00002" summary="H02&gt; Applet opdrachten + vragen">
-      <created>1599655447370</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599655447370</updated>
+      <workItem from="1603189193453" duration="6310000" />
+      <workItem from="1603362040831" duration="2922000" />
     </task>
     <task id="LOCAL-00003" summary="H04&gt; Huis &amp; Driehoek">
       <created>1599912866615</created>
@@ -543,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603096737635</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet.">
+      <created>1603195413521</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1603195413522</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +565,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H08&gt; Opdracht 8 Praktijk" />
     <MESSAGE value="H08&gt; Opdracht 8 re- Praktijkopdracht em btwberekenaar samen met jorn bekeken." />
     <MESSAGE value="H09&gt; Vraag" />
     <MESSAGE value="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer" />
@@ -587,7 +589,8 @@
     <MESSAGE value="H12 &gt; Oefeningen en begin opdracht." />
     <MESSAGE value="H12 &gt; opdracht 1 bekeken met Jorn, gemiddelde word nu berekent." />
     <MESSAGE value="H12 &gt; opdracht 2, Button Array met 25 knoppen ( niet volledig zelf gedaan vanwege vastloping en hulp )." />
-    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 2, Button Array met 25 knoppen ( niet volledig zelf gedaan vanwege vastloping en hulp )." />
+    <MESSAGE value="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet." />
+    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
@@ -618,38 +621,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1603194443327">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1603364874892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603194443327" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1603194443327">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603364874892" />
+    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1603364874892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603194443327" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1603194443327">
+    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603364874892" />
+    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1603364874892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603194443327" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1603194443327">
+    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603364874892" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1603364874892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603194443327" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603193184660">
+    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603364874892" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603364814559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603193184660" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1603193184659">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603364814559" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1603364814559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603193184659" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1603193184659">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603364814559" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1603364814559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603193184659" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1603193184660">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603364814559" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1603364814559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603193184660" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603364814559" />
     <state x="651" y="240" key="RollbackChangesDialog" timestamp="1602240641448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -658,10 +661,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603096742059">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603195415765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603096742059" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603195415765" />
     <state x="690" y="281" key="extract.method.dialog" timestamp="1602240531264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
