@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)">
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 5, vervolg opdracht 4">
+      <change afterPath="$PROJECT_DIR$/src/h12/ElementArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h12/IndexTabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/IndexTabel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +74,23 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.IndexTabel">
+  <component name="RunManager" selected="Applet.ElementArray">
+    <configuration name="ElementArray" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.ElementArray" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GemiddeldeTabel" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h12.GemiddeldeTabel" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gewichtdiagram2" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h05.Gewichtdiagram2" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,22 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnopArray" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.KnopArray" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextFieldArray" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.TextFieldArray" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oefening" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.oefening" />
+    <configuration name="Vragen" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h04.Vragen" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,19 +130,19 @@
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.oefening" />
       <item itemvalue="Applet.GemiddeldeTabel" />
-      <item itemvalue="Applet.KnopArray" />
-      <item itemvalue="Applet.TextFieldArray" />
       <item itemvalue="Applet.IndexTabel" />
+      <item itemvalue="Applet.ElementArray" />
+      <item itemvalue="Applet.Gewichtdiagram2" />
+      <item itemvalue="Applet.Vragen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.ElementArray" />
+        <item itemvalue="Applet.Vragen" />
+        <item itemvalue="Applet.Gewichtdiagram2" />
         <item itemvalue="Applet.IndexTabel" />
         <item itemvalue="Applet.GemiddeldeTabel" />
-        <item itemvalue="Applet.oefening" />
-        <item itemvalue="Applet.TextFieldArray" />
-        <item itemvalue="Applet.KnopArray" />
       </list>
     </recent_temporary>
   </component>
@@ -200,21 +200,9 @@
       <workItem from="1603089965697" duration="6644000" />
       <workItem from="1603189193453" duration="6310000" />
       <workItem from="1603362040831" duration="3380000" />
-      <workItem from="1603370562357" duration="1312000" />
-    </task>
-    <task id="LOCAL-00005" summary="H04&gt; Vlag">
-      <created>1599916846491</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1599916846491</updated>
-    </task>
-    <task id="LOCAL-00006" summary="H04&gt; Vlag">
-      <created>1599917029701</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599917029701</updated>
+      <workItem from="1603370562357" duration="1660000" />
+      <workItem from="1604395563491" duration="2954000" />
+      <workItem from="1604476221651" duration="4204000" />
     </task>
     <task id="LOCAL-00007" summary="H04&gt; GewichtDiagram">
       <created>1599920441214</created>
@@ -545,7 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603366440222</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="H12 &gt; opdracht 4 tabel met tekstvak en OK knop. zodra ok geklikt word ,word de index aangegeven.">
+      <created>1603372016485</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372016486</updated>
+    </task>
+    <task id="LOCAL-00055" summary="H12 &gt; opdracht 5, vervolg opdracht 4">
+      <created>1603372211944</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372211944</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,8 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H09&gt; Vraag" />
-    <MESSAGE value="H10&gt; Opdracht 10.1 en 10.2 Grootste en laagste nummer" />
     <MESSAGE value="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)" />
     <MESSAGE value="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen." />
     <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt (maandag finetunen samen met jorn) + Praktijkopdracht, werkt volledig." />
@@ -589,7 +589,9 @@
     <MESSAGE value="H12 &gt; opdracht 2, Button Array met 25 knoppen ( niet volledig zelf gedaan vanwege vastloping en hulp )." />
     <MESSAGE value="H12 &gt; opdracht 3, TextFieldArray zodra Ok word geklikt worden de nummers op volgorde in de textfields gezet." />
     <MESSAGE value="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)" />
-    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)" />
+    <MESSAGE value="H12 &gt; opdracht 4 tabel met tekstvak en OK knop. zodra ok geklikt word ,word de index aangegeven." />
+    <MESSAGE value="H12 &gt; opdracht 5, vervolg opdracht 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 5, vervolg opdracht 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
@@ -620,22 +622,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1603371721451">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1604481455087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603371721451" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1603371721451">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
+    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1604481455087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603371721451" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1603371721451">
+    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
+    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1604481455087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603371721451" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1603371721451">
+    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1604481455087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603371721451" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603366446562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -660,10 +662,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603195415765">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603372213158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603195415765" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603372213158" />
     <state x="690" y="281" key="extract.method.dialog" timestamp="1602240531264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
