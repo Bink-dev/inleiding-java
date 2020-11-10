@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 5, vervolg opdracht 4">
-      <change afterPath="$PROJECT_DIR$/src/h12/ElementArray.java" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; opdracht 6. Werkt volledig , ingekeken met Jorn IVM moeite hoofdstuk 12.">
+      <change afterPath="$PROJECT_DIR$/src/h12/PraktijkOpdracht.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,23 +74,16 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.ElementArray">
-    <configuration name="ElementArray" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.ElementArray" />
+  <component name="RunManager" selected="Applet.oefenOpdracht">
+    <configuration name="CirkelSeries3" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.CirkelSeries3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GemiddeldeTabel" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.GemiddeldeTabel" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gewichtdiagram2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h05.Gewichtdiagram2" />
+    <configuration name="Fibonacci" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.Fibonacci" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,46 +96,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexTabel" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.IndexTabel" />
+    <configuration name="KnopArray" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.KnopArray" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vragen" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h04.Vragen" />
+    <configuration name="OkEnReset" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.OkEnReset" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="oefenOpdracht" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OefenOpdracht.oefenOpdracht" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.GemiddeldeTabel" />
-      <item itemvalue="Applet.IndexTabel" />
-      <item itemvalue="Applet.ElementArray" />
-      <item itemvalue="Applet.Gewichtdiagram2" />
-      <item itemvalue="Applet.Vragen" />
+      <item itemvalue="Applet.OkEnReset" />
+      <item itemvalue="Applet.Fibonacci" />
+      <item itemvalue="Applet.CirkelSeries3" />
+      <item itemvalue="Applet.KnopArray" />
+      <item itemvalue="Applet.oefenOpdracht" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.ElementArray" />
-        <item itemvalue="Applet.Vragen" />
-        <item itemvalue="Applet.Gewichtdiagram2" />
-        <item itemvalue="Applet.IndexTabel" />
-        <item itemvalue="Applet.GemiddeldeTabel" />
+        <item itemvalue="Applet.oefenOpdracht" />
+        <item itemvalue="Applet.KnopArray" />
+        <item itemvalue="Applet.CirkelSeries3" />
+        <item itemvalue="Applet.Fibonacci" />
+        <item itemvalue="Applet.OkEnReset" />
       </list>
     </recent_temporary>
   </component>
@@ -202,14 +204,8 @@
       <workItem from="1603362040831" duration="3380000" />
       <workItem from="1603370562357" duration="1660000" />
       <workItem from="1604395563491" duration="2954000" />
-      <workItem from="1604476221651" duration="4204000" />
-    </task>
-    <task id="LOCAL-00007" summary="H04&gt; GewichtDiagram">
-      <created>1599920441214</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1599920441214</updated>
+      <workItem from="1604476221651" duration="5619000" />
+      <workItem from="1605008175763" duration="3016000" />
     </task>
     <task id="LOCAL-00008" summary="H04&gt; Ellips">
       <created>1599921099923</created>
@@ -547,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603372211944</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="H12 &gt; opdracht 6. Werkt volledig , ingekeken met Jorn IVM moeite hoofdstuk 12.">
+      <created>1604481737411</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1604481737411</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +569,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H10&gt; Opdracht 10.3 Maand Applet. &gt;10.4 finetunen op schrikkeljaren (voor Februari)" />
     <MESSAGE value="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen." />
     <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt (maandag finetunen samen met jorn) + Praktijkopdracht, werkt volledig." />
     <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt volledig (geen cijfers ingevoerd &gt; 0.0 (if 0.0 &quot;geen cijfer ingevoerd)) Jorn heeft meegekeken en meegeholpen met wat ik kon doen&quot;" />
@@ -591,7 +593,8 @@
     <MESSAGE value="H12 &gt; opdracht 4, halverwege (nog geen inzicht over wat index betekent.)" />
     <MESSAGE value="H12 &gt; opdracht 4 tabel met tekstvak en OK knop. zodra ok geklikt word ,word de index aangegeven." />
     <MESSAGE value="H12 &gt; opdracht 5, vervolg opdracht 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 5, vervolg opdracht 4" />
+    <MESSAGE value="H12 &gt; opdracht 6. Werkt volledig , ingekeken met Jorn IVM moeite hoofdstuk 12." />
+    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 6. Werkt volledig , ingekeken met Jorn IVM moeite hoofdstuk 12." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
@@ -622,22 +625,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1604481455087">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1605011465308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1604481455087">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605011465308" />
+    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1605011465308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1604481455087">
+    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605011465308" />
+    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1605011465308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1604481455087">
+    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605011465308" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1605011465308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604481455087" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605011465308" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603366446562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -662,10 +665,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603372213158">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604481742449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603372213158" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604481742449" />
     <state x="690" y="281" key="extract.method.dialog" timestamp="1602240531264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
