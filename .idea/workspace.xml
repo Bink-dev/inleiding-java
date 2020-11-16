@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; praktijk">
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H12 &gt; praktijkopdracht systeem werkt bijna volledig. Alle outputs worden de eerste user input.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h12/PraktijkOpdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/PraktijkOpdracht.java" afterDir="false" />
     </list>
@@ -117,13 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,14 +206,8 @@
       <workItem from="1604395563491" duration="2954000" />
       <workItem from="1604476221651" duration="5619000" />
       <workItem from="1605008175763" duration="3047000" />
-      <workItem from="1605441790404" duration="7570000" />
-    </task>
-    <task id="LOCAL-00009" summary="H04&gt; Stoplicht">
-      <created>1600013714346</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1600013714346</updated>
+      <workItem from="1605441790404" duration="7715000" />
+      <workItem from="1605518565425" duration="1211000" />
     </task>
     <task id="LOCAL-00010" summary="H04&gt; Dobbelsteen">
       <created>1600014476685</created>
@@ -549,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605012182016</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="H12 &gt; praktijkopdracht systeem werkt bijna volledig. Alle outputs worden de eerste user input.">
+      <created>1605449544507</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1605449544507</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H10&gt; Opdracht 10.4 schrikkeljaren werken maar niet op de juiste jaren &gt; hulpvraag ingediend en finetunen." />
     <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt (maandag finetunen samen met jorn) + Praktijkopdracht, werkt volledig." />
     <MESSAGE value="H10 &gt; Opdracht 10.5 Werkt volledig (geen cijfers ingevoerd &gt; 0.0 (if 0.0 &quot;geen cijfer ingevoerd)) Jorn heeft meegekeken en meegeholpen met wat ik kon doen&quot;" />
     <MESSAGE value="Oefenopdracht op school" />
@@ -593,7 +595,8 @@
     <MESSAGE value="H12 &gt; opdracht 4 tabel met tekstvak en OK knop. zodra ok geklikt word ,word de index aangegeven." />
     <MESSAGE value="H12 &gt; opdracht 5, vervolg opdracht 4" />
     <MESSAGE value="H12 &gt; opdracht 6. Werkt volledig , ingekeken met Jorn IVM moeite hoofdstuk 12." />
-    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; opdracht 6. Werkt volledig , ingekeken met Jorn IVM moeite hoofdstuk 12." />
+    <MESSAGE value="H12 &gt; praktijkopdracht systeem werkt bijna volledig. Alle outputs worden de eerste user input." />
+    <option name="LAST_COMMIT_MESSAGE" value="H12 &gt; praktijkopdracht systeem werkt bijna volledig. Alle outputs worden de eerste user input." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
@@ -624,38 +627,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1605449234026">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1605519365129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605449234026" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1605449234026">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605519365129" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1605519365129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605449234026" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1605449234025">
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605519365129" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1605519365129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605449234025" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1605449234026">
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605519365129" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1605519365129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605449234026" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1605449039512">
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605519365129" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1605449570806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605449039512" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1605449039512">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1605449570806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605449039512" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1605449039512">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1605449570806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605449039512" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1605449039512">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1605449570806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605449039512" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
     <state x="651" y="240" key="RollbackChangesDialog" timestamp="1602240641448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
