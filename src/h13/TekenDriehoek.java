@@ -3,7 +3,7 @@ package h13;
 import java.applet.Applet;
 import java.awt.*;
 
-public class tekenDriehoek extends Applet {
+public class TekenDriehoek extends Applet {
 
     public void init() {
         setSize(400, 350);
