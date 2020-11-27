@@ -10,144 +10,25 @@ public class BrickWall extends Applet {
     }
 
     public void paint(Graphics g) {
-        int x = 0;
-        int y = 0;
-        int w = 80;
-        int h = 40;
-        this.redBrickWall(g,x,y,w,h);
-
+        Color baksteenkleur = new Color(203,50,40);
+        redBrickWall(g,-60,0,120,40,17,25,baksteenkleur);
     }
 
-    private void redBrickWall (Graphics g ,int x ,int y ,int w ,int h){
-        for (int counter = 0; counter < 700; counter++){
-            g.setColor(Color.red);
-            g.fillRect(x,y,w,h);
-            g.setColor(Color.black);
-            g.drawRect(x,y,w,h);
-            x += 80;
-
-            if (counter == 23){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 48){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 72){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 97){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 121){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 146){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 170){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 195){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 219){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 244){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 268){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 293){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 317){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 342){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 366){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 391){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 415){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 440){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 464){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 489){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 513){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 538){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 562){
-                x = -40;
-                y += 40;
-            }
-
-            if (counter == 587){
-                x = 0;
-                y += 40;
-            }
-
-            if (counter == 611){
-                break;
+    private void redBrickWall (Graphics g ,int x ,int y ,int w ,int h,int rij,int kolom,Color kleur){
+        for (int counter = 0; counter < kolom; counter++){
+            for (int teller = 0; teller < rij; teller++){
+                if (counter % 2 == 0) {
+                    g.setColor(kleur);
+                    g.fillRect(x + w / 2 + teller * w, y + counter * h, w, h);
+                    g.setColor(Color.black);
+                    g.drawRect(x + w / 2 + teller * w, y + counter * h, w, h);
+                }
+                else{
+                    g.setColor(kleur);
+                    g.fillRect(x + teller * w,y + counter * h,w,h);
+                    g.setColor(Color.black);
+                    g.drawRect(x + teller * w,y + counter * h,w,h);
+                }
             }
         }
     }

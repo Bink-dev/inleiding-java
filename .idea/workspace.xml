@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H13 &gt; commit initial">
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H13 &gt; opdracht 13.2 en 13.3, oncompleet &gt; hulpvraag ingediend.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h13/tekenDriehoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h13/tekenDriehoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h13/BrickWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h13/BrickWall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h13/CementWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h13/CementWall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -74,16 +76,23 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.tekenDriehoek">
-    <configuration name="Grootstenummer" type="Applet">
-      <option name="HEIGHT" value="400" />
+  <component name="RunManager" selected="Applet.BrickWall">
+    <configuration name="BrickWall" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h13.BrickWall" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnopArray" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.KnopArray" />
+    <configuration name="CementWall" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h13.CementWall" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grootstenummer" type="Applet">
+      <option name="HEIGHT" value="400" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oefenOpdracht" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OefenOpdracht.oefenOpdracht" />
+    <configuration name="TekenDriehoek" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h13.TekenDriehoek" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,13 +114,6 @@
     </configuration>
     <configuration name="oefening" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h13.oefening" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tekenDriehoek" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.tekenDriehoek" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,19 +132,19 @@
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.KnopArray" />
-      <item itemvalue="Applet.oefenOpdracht" />
       <item itemvalue="Applet.PraktijkOpdracht" />
       <item itemvalue="Applet.oefening" />
-      <item itemvalue="Applet.tekenDriehoek" />
+      <item itemvalue="Applet.TekenDriehoek" />
+      <item itemvalue="Applet.BrickWall" />
+      <item itemvalue="Applet.CementWall" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.tekenDriehoek" />
+        <item itemvalue="Applet.BrickWall" />
+        <item itemvalue="Applet.CementWall" />
+        <item itemvalue="Applet.TekenDriehoek" />
         <item itemvalue="Applet.oefening" />
         <item itemvalue="Applet.PraktijkOpdracht" />
-        <item itemvalue="Applet.oefenOpdracht" />
-        <item itemvalue="Applet.KnopArray" />
       </list>
     </recent_temporary>
   </component>
@@ -209,21 +211,8 @@
       <workItem from="1606217297898" duration="18000" />
       <workItem from="1606217329499" duration="5559000" />
       <workItem from="1606380389380" duration="33000" />
-      <workItem from="1606380497471" duration="300000" />
-    </task>
-    <task id="LOCAL-00012" summary="H05&gt; PraktijkOpdracht met variabelen">
-      <created>1600252763315</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1600252763315</updated>
-    </task>
-    <task id="LOCAL-00013" summary="H05&gt; gewichtdiagram met variabelen">
-      <created>1600258289881</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1600258289881</updated>
+      <workItem from="1606380497471" duration="8760000" />
+      <workItem from="1606470690011" duration="4854000" />
     </task>
     <task id="LOCAL-00014" summary="H06&gt; vragen">
       <created>1600333852940</created>
@@ -554,7 +543,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606223591905</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="H13 &gt; Opdracht 1. Teken een driehoek met een methode.">
+      <created>1606380989172</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1606380989173</updated>
+    </task>
+    <task id="LOCAL-00062" summary="H13 &gt; opdracht 13.2 en 13.3, oncompleet &gt; hulpvraag ingediend.">
+      <created>1606389108460</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1606389108460</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,8 +576,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oefenopdracht op school" />
-    <MESSAGE value="H11 &gt; Vragen + 11.1 Verticale lijnen" />
     <MESSAGE value="H11 &gt; Nummering tussen 10 &amp; 20 loop" />
     <MESSAGE value="H11 &gt; opdracht 3. De fibonacci series werkt, geprobeerd in applet te plaatsen maar niet succesvol." />
     <MESSAGE value="H11&gt; opdracht 4, Tafel van 3 Applet (nummer kan aangepast worden en blijft werken)." />
@@ -598,7 +599,9 @@
     <MESSAGE value="H12 &gt; praktijkopdracht systeem werkt bijna volledig. Alle outputs worden de eerste user input." />
     <MESSAGE value="H12 &gt; praktijkopdracht systeem werkt volledig." />
     <MESSAGE value="H13 &gt; commit initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="H13 &gt; commit initial" />
+    <MESSAGE value="H13 &gt; Opdracht 1. Teken een driehoek met een methode." />
+    <MESSAGE value="H13 &gt; opdracht 13.2 en 13.3, oncompleet &gt; hulpvraag ingediend." />
+    <option name="LAST_COMMIT_MESSAGE" value="H13 &gt; opdracht 13.2 en 13.3, oncompleet &gt; hulpvraag ingediend." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
@@ -629,38 +632,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1606223622769">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1606475530029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606223622769" />
-    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1606223622769">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606475530029" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1606475530028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606223622769" />
-    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1606223622769">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606475530028" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1606475530027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606223622769" />
-    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1606223622769">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606475530027" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1606475530028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606223622769" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1605449570806">
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606475530028" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1606389411174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1605449570806">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411174" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1606389411174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1605449570806">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411174" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1606389411173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1605449570806">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411173" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1606389411174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605449570806" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411174" />
     <state x="651" y="240" key="RollbackChangesDialog" timestamp="1602240641448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -669,10 +672,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605520083007">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606381298740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605520083007" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606381298740" />
     <state x="690" y="281" key="extract.method.dialog" timestamp="1602240531264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
