@@ -11,6 +11,7 @@ public class PraktijkOpdracht extends Applet {
     Button boomKnop,boomGaardKnop;
 
     public void init() {
+        setSize (1000, 1000);
         boom = false;
         boomgaard = false;
         boomKnop = new Button("Boom");
@@ -53,11 +54,14 @@ public class PraktijkOpdracht extends Applet {
     private void boomgaard (Graphics g,int xS,int yS,int wS,int hS,int xC,int yC,int wC,int hC,int rij,int kolom,Color boomkleur,Color bladkleur){
         for (int teller = 0; teller < kolom; teller ++){
             for (int counter = 0; counter < rij; counter++){
+               // System.out.println(counter);
                 if (boomgaard){
                     g.setColor(boomkleur);
-                    g.fillRect(xS + teller * wS,yS + counter * hS,wS,hS);
+                    g.fillRect(400 + teller * 100,(yS + counter * hS) + (counter * 100),wS,hS);
+                    //System.out.println(xS + ((teller + 1) * wS * 2));
                     g.setColor(bladkleur);
-                    g.fillOval(xC + teller * wC,yC + counter * hC,wC,hC);
+                    System.out.println((yS + counter * hS) + (counter * 100));
+                    g.fillOval(350 + teller * 100,200 + 300 * counter,wC,hC);
                 }else if (boom){
                     g.setColor(boomkleur);
                     g.fillRect(xS,yS,wS,hS);

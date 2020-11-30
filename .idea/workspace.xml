@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H13 &gt; opdracht 13.2 en 13.3, bekeken met Rick. code verkort en valt nu gemakkelijker aan te passen.">
-      <change afterPath="$PROJECT_DIR$/src/h13/PraktijkOpdracht.java" afterDir="false" />
+    <list default="true" id="e8bc835f-d4e5-403f-a02d-12c18c6b3eb9" name="Default Changelist" comment="H13 &gt; Praktijkopdracht. Werkt bijna volledig, coordinaten kloppen niet en maken een rare verhouding.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h13/PraktijkOpdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h13/PraktijkOpdracht.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,14 +215,8 @@
       <workItem from="1606380497471" duration="8760000" />
       <workItem from="1606470690011" duration="6225000" />
       <workItem from="1606659301375" duration="3635000" />
-      <workItem from="1606662978196" duration="909000" />
-    </task>
-    <task id="LOCAL-00015" summary="H06&gt; seconden aantal">
-      <created>1600341831546</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1600341831546</updated>
+      <workItem from="1606662978196" duration="1183000" />
+      <workItem from="1606729388831" duration="971000" />
     </task>
     <task id="LOCAL-00016" summary="H06&gt; 2 positieven naar een negatief">
       <created>1600344154576</created>
@@ -558,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606475818478</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="H13 &gt; Praktijkopdracht. Werkt bijna volledig, coordinaten kloppen niet en maken een rare verhouding.">
+      <created>1606664160870</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1606664160871</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +580,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H11 &gt; opdracht 3. De fibonacci series werkt, geprobeerd in applet te plaatsen maar niet succesvol." />
     <MESSAGE value="H11&gt; opdracht 4, Tafel van 3 Applet (nummer kan aangepast worden en blijft werken)." />
     <MESSAGE value="H11&gt; opdracht 5, Vierkantseries afgerond. Begin opdracht 6 cirkelseries 1." />
     <MESSAGE value="H11&gt; opdracht 6 , Cirkelseries 5 x gecentreerde cirkels." />
@@ -602,7 +604,8 @@
     <MESSAGE value="H13 &gt; Opdracht 1. Teken een driehoek met een methode." />
     <MESSAGE value="H13 &gt; opdracht 13.2 en 13.3, oncompleet &gt; hulpvraag ingediend." />
     <MESSAGE value="H13 &gt; opdracht 13.2 en 13.3, bekeken met Rick. code verkort en valt nu gemakkelijker aan te passen." />
-    <option name="LAST_COMMIT_MESSAGE" value="H13 &gt; opdracht 13.2 en 13.3, bekeken met Rick. code verkort en valt nu gemakkelijker aan te passen." />
+    <MESSAGE value="H13 &gt; Praktijkopdracht. Werkt bijna volledig, coordinaten kloppen niet en maken een rare verhouding." />
+    <option name="LAST_COMMIT_MESSAGE" value="H13 &gt; Praktijkopdracht. Werkt bijna volledig, coordinaten kloppen niet en maken een rare verhouding." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602933438022">
@@ -633,22 +636,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1606663678789">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1606730391431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606663678789" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1606663678789">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391431" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1606730391430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606663678789" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1606663678789">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391430" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1606730391430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606663678789" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1606663678789">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391430" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1606730391430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606663678789" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391430" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1606389411174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
