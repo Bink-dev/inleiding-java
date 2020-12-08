@@ -75,16 +75,16 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Applet.PraktijkOpdracht (1)">
-    <configuration name="BrickWall" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.BrickWall" />
+  <component name="RunManager" selected="Applet.CementWall">
+    <configuration name="CementWall" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h13.CementWall" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CementWall" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.CementWall" />
+    <configuration name="CirkelSeries3" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.CirkelSeries3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,48 +104,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TekenDriehoek" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.TekenDriehoek" />
+    <configuration name="SimpelCalculator" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.SimpelCalculator" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oefening" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.oefening" />
+    <configuration name="test" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Applet.Grootstenummer" />
-      <item itemvalue="Applet.oefening" />
-      <item itemvalue="Applet.TekenDriehoek" />
-      <item itemvalue="Applet.BrickWall" />
-      <item itemvalue="Applet.CementWall" />
       <item itemvalue="Applet.PraktijkOpdracht (1)" />
+      <item itemvalue="Applet.SimpelCalculator" />
+      <item itemvalue="Applet.CirkelSeries3" />
+      <item itemvalue="Applet.test" />
+      <item itemvalue="Applet.CementWall" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.PraktijkOpdracht (1)" />
-        <item itemvalue="Applet.BrickWall" />
         <item itemvalue="Applet.CementWall" />
-        <item itemvalue="Applet.TekenDriehoek" />
-        <item itemvalue="Applet.oefening" />
+        <item itemvalue="Applet.PraktijkOpdracht (1)" />
+        <item itemvalue="Applet.test" />
+        <item itemvalue="Applet.CirkelSeries3" />
+        <item itemvalue="Applet.SimpelCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -216,14 +203,10 @@
       <workItem from="1606470690011" duration="6225000" />
       <workItem from="1606659301375" duration="3635000" />
       <workItem from="1606662978196" duration="1183000" />
-      <workItem from="1606729388831" duration="971000" />
-    </task>
-    <task id="LOCAL-00016" summary="H06&gt; 2 positieven naar een negatief">
-      <created>1600344154576</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1600344154576</updated>
+      <workItem from="1606729388831" duration="1417000" />
+      <workItem from="1607022433567" duration="181000" />
+      <workItem from="1607336078147" duration="1391000" />
+      <workItem from="1607427222552" duration="73000" />
     </task>
     <task id="LOCAL-00017" summary="H06&gt; Praktijkopdracht">
       <created>1600424612907</created>
@@ -561,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606664160871</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="H13 &gt; Praktijkopdracht. Werkt bijna volledig, coordinaten kloppen niet en maken een rare verhouding.">
+      <created>1606730480225</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1606730480225</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,50 +626,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601278933679" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1606730391431">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1607337481765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391431" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1606730391430">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481765" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1607337481765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391430" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1606730391430">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481765" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1607337481764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391430" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1606730391430">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481764" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1607337481765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606730391430" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1606389411174">
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481765" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1607337481754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411174" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1606389411174">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481754" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1607337481753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411174" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1606389411173">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481753" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1607337481753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411173" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1606389411174">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481753" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1607337481754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606389411174" />
-    <state x="651" y="240" key="RollbackChangesDialog" timestamp="1602240641448">
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607337481754" />
+    <state x="651" y="240" key="RollbackChangesDialog" timestamp="1607337443331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602240641448" />
+    <state x="651" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607337443331" />
     <state x="584" y="155" key="SettingsEditor" timestamp="1601313755853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="584" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601313755853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606381298740">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606730482874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606381298740" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606730482874" />
     <state x="690" y="281" key="extract.method.dialog" timestamp="1602240531264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

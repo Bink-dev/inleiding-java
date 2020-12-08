@@ -32,7 +32,6 @@ public class PraktijkOpdracht extends Applet {
         }else if (boomgaard){
             boomgaard(g,300,300,50,200,245,180,160,160,2,5,boomkleur,bladkleur);
         }
-
     }
 
     class boomGaardListener implements ActionListener{
@@ -54,11 +53,9 @@ public class PraktijkOpdracht extends Applet {
     private void boomgaard (Graphics g,int xS,int yS,int wS,int hS,int xC,int yC,int wC,int hC,int rij,int kolom,Color boomkleur,Color bladkleur){
         for (int teller = 0; teller < kolom; teller ++){
             for (int counter = 0; counter < rij; counter++){
-               // System.out.println(counter);
                 if (boomgaard){
                     g.setColor(boomkleur);
                     g.fillRect(400 + teller * 100,(yS + counter * hS) + (counter * 100),wS,hS);
-                    //System.out.println(xS + ((teller + 1) * wS * 2));
                     g.setColor(bladkleur);
                     System.out.println((yS + counter * hS) + (counter * 100));
                     g.fillOval(350 + teller * 100,200 + 300 * counter,wC,hC);
